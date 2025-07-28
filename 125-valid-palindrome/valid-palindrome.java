@@ -5,6 +5,6 @@ class Solution {
         }
         String s1=s.replaceAll("[^a-zA-Z0-9]","").toLowerCase();
         String reverse=new StringBuilder(s1).reverse().toString();
-        return s1.equals(reverse);
+        return reverse.equals(s1);
     }
 }
